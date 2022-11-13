@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #8fad84;
+    font-size: 16px;
+    font-family: 'Inter';
+}
+nav{    
+
+    background-color: #4B784F;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    color: white;
+
+}
+.logo-nav
+{
+    width: 4vw;
+    left: 15px;
+}
+.txt-nav{
+    width: 30vw;
+    position: relative;
+    left: 1vw;
+    top: 0.2vw;
+    font-size: 1.5vw;
+}
+.home-nav
+{
+    position: relative;
+    top: 1vw;
+    left: 15vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.sobre-nav{
+    position: relative;
+    top: 1vw;
+    left: 18vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.projetos-nav
+{
+    position: relative;
+    top: 1vw;
+    left: 21vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.onde-nav{
+    position: relative;
+    top: 1vw;
+    left: 24vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.fale-nav
+{
+    position: relative;
+    top: 1vw;
+    left: 27vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+}
+.cadastro-nav{
+    position: relative;
+    top: 1vw;
+    left: 30vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+}
+.home-logo{
+    position: relative;
+    width: 70vw;
+    height: 35vw;
+    top: 7vw;
+    left: 15vw;
+    border-radius: 10%;
+}

@@ -7,6 +7,10 @@ body{
     font-size: 16px;
     font-family: 'Inter';
 }
+h1{
+    font-size: 4vw;
+    color: white;
+}
 nav{    
 
     background-color: #4B784F;
@@ -83,6 +87,27 @@ nav{
     width: 70vw;
     height: 35vw;
     top: 7vw;
-    left: 15vw;
+    left: 14vw;
     border-radius: 10%;
+}
+.titulo-pro{
+    position: relative;
+    top: 10vw;
+    text-align: center;
+    
+}
+
+.ex-pro
+{
+    position: relative;
+    width: 15vw;
+    height: 10vw;
+    top: 15vw;
+    left: 10vw;
+
+}
+.proj-ti{
+    position:relative;
+    top: 10vw;
+    
 }

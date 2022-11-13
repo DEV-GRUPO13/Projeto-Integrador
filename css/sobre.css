@@ -1,0 +1,12 @@
+body {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #D2FAC3;
+}
+
+header {
+    width: 100vw;
+    height: 5vw;
+    background-color: #4B784F;
+}

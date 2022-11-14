@@ -7,8 +7,8 @@ body {
 
 }
 
-img {
-    
+.img_estamos {
+
     display: block;
     margin-top: 3%;
     margin-left: auto;
@@ -53,10 +53,24 @@ h2 {
     margin-right: 50%;
 }
 
-
-ul {
-    margin-left: 30%;
-    margin-right: 56%;
+img {
+    display: block;
+    margin-top: 3%;
+    margin-left: 25%;
+    width: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 8px 6px 1px #75946a;
+}
+a{
+    position: relative;
+    top: -16.5px;
+    margin-left: 28%;
+    margin-right: 50%;
+    font-size: 2vw;
+    font-family: 'Inter';
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 10px 20px #000000;
 
 }
 
@@ -66,16 +80,26 @@ ul {
     margin-right: 50%;
 }
 
-.mapa{
-    margin-top: 1%;
+.mapa {
+    width: 50vw;
+    height: 23vw;
     margin-left: 25%;
-    margin-right: 50%;
     border-radius: 15px;
     box-shadow: 1px 12px 6px 7px #75946a;
-    width:50%;
-    height: 50%;
-   
 }
+
+.txt-mapa {
+    font-size: 2vw;
+    font-family: 'Inter';
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: auto;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 10px 20px #000000;
+
+}
+
 .btn-mapa {
     background-color: #000000;
     color: white;
@@ -83,12 +107,11 @@ ul {
     font-family: 'Inter';
     font-style: normal;
     font-weight: lighter;
-    padding: 3% 10%;
+    padding: 1% 6%;
     border-radius: 5px;
     display: inline-block;
     font-size: 15px;
-    margin-left: 25%;
-
+    margin-left: 60.2%;
     transition-duration: 0.4s;
     border: 3px solid #000000;
 }

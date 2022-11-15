@@ -18,7 +18,7 @@ header {
     display: flex;
     
 }
-.chat-fundo{
+.fundo-chat{
     display: flex;
     height: 83.5vh;
     width: 100%;
@@ -36,7 +36,7 @@ header {
     left: 0px;
     top: 512px;
 }
-.barra-campo-mensagem{
+.input-chat{
     width: 89vw;
     height: 7vh;
     margin: 19px;

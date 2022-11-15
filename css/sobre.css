@@ -4,9 +4,49 @@ body {
     height: 100%;
     background-color: #D2FAC3;
 }
-
 header {
     width: 100vw;
-    height: 5vw;
+    height: 5vh;
     background-color: #4B784F;
+}
+#chat-online h1{
+    display: flex;
+    justify-content: space-around;
+}
+.chat-inicio{
+    justify-content: center;
+    display: flex;
+    
+}
+.chat-fundo{
+    display: flex;
+    height: 83.5vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+.barra-mensagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 64px;
+    left: 0px;
+    top: 512px;
+}
+.barra-campo-mensagem{
+    width: 89vw;
+    height: 7vh;
+    margin: 19px;
+    border-radius: 6px; 
+    border-color: rgb(103, 115, 128);
+    border-style: solid;
+}
+.enviar-chat{
+    background: #000000;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 14px;
 }

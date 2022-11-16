@@ -100,14 +100,17 @@ nav{
 .ex-pro
 {
     position: relative;
-    width: 15vw;
-    height: 10vw;
+    width: 20vw;
+    height: 15vw;
     top: 15vw;
     left: 10vw;
 
 }
 .proj-ti{
     position:relative;
-    top: 10vw;
+    top: -1vw;
+    left: 31vw;
+    font-size: 2vw;
+    color: white;
     
 }

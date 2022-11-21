@@ -11,6 +11,9 @@ h1{
     font-size: 4vw;
     color: white;
 }
+p{
+    color: white;
+}
 nav{    
 
     background-color: #4B784F;
@@ -113,4 +116,76 @@ nav{
     font-size: 2vw;
     color: white;
     
+}
+.icon1-pro{
+    position: relative;
+    top: -2vw;
+    left: 30.5vw;
+    font-size: 1vw;
+}
+.create{
+    position: relative;
+    top: -4.8vw;
+    left: 33vw;
+    font-size: 1vw;
+}
+.date{
+    position: relative;
+    top: -7vw;
+    left: 40vw;
+    font-size: 1vw;
+}
+.calendario{
+    position: relative;
+    top: -10.2vw;
+    left: 52vw;
+    font-size: 1vw;
+}
+.projetos-pro{
+    position: relative;
+    top: -13vw;
+    left: 56vw;
+    font-size: 1vw;
+}
+.etiqueta{
+    position: relative;
+    top: -16.4vw;
+    left: 74vw;
+    font-size: 1vw;
+}
+.comentarios-pro{
+    position: relative;
+    top: -19.1vw;
+    left: 78vw;
+    font-size: 1vw;
+}
+.Icon-coment{
+    position: relative;
+    top: -22.5vw;
+    left: 84vw;
+    font-size: 1vw;
+}
+.texto-pro{
+    position: relative;
+    top: -23.5vw;
+    left: 31vw;
+    font-size: 1.1vw;
+    width: 48vw;
+    color: black;
+}
+.Voltar-pro{
+    position: relative;
+    left: 11vw;
+    top: -10vw;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 6px;
+}
+.entrar-pro{
+    position: relative;
+    left: 60vw;
+    top: -10vw;
+    height: 3vw;
+    width: 10vw;
+    border-radius: 6px;
 }

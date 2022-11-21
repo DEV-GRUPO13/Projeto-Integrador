@@ -122,11 +122,6 @@ nav{
     color: #ffffff;
     padding: 14px;
 }
-@media screen and (max-width: 600px) {
-    body{
-        background-color: blue;
-    }
-}
 @media screen and (min-width: 601px){
     
     .header-chat h1{

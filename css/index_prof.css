@@ -1,0 +1,238 @@
+body {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+    /*background-color: #D2FAC3;*/
+}
+header {
+    width: 100vw;
+    height: 5vh;
+    background-color: #4B784F;
+}
+nav{    
+
+    background-color: #4B784F;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    color: white;
+
+}
+.logo-nav
+{
+    width: 4vw;
+    left: 15px;
+}
+.txt-nav{
+    width: 30vw;
+    position: relative;
+    left: 1vw;
+    top: 0.2vw;
+    font-size: 1.5vw;
+}
+.home-nav
+{
+    position: relative;
+    top: 1vw;
+    left: 15vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.sobre-nav{
+    position: relative;
+    top: 1vw;
+    left: 18vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.projetos-nav
+{
+    position: relative;
+    top: 1vw;
+    left: 21vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.onde-nav{
+    position: relative;
+    top: 1vw;
+    left: 24vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+
+}
+.fale-nav
+{
+    position: relative;
+    top: 1vw;
+    left: 27vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+}
+.cadastro-nav{
+    position: relative;
+    top: 1vw;
+    left: 30vw;
+    font-size: 1vw;
+    text-decoration-line: underline;
+}
+#chat-online h1{
+    display: flex;
+    justify-content: space-around;
+}
+.chat-inicio{
+    justify-content: center;
+    display: flex;
+    
+}
+.fundo-chat{
+    display: flex;
+    height: 80.5vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+.barra-mensagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 64px;
+    left: 0px;
+    top: 512px;
+}
+.input-chat{
+    width: 89vw;
+    height: 7vh;
+    margin: 19px;
+    border-radius: 6px; 
+    border-color: rgb(103, 115, 128);
+    border-style: solid;
+}
+.enviar-chat{
+    background: #000000;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 14px;
+}
+@media screen and (min-width: 601px){
+    
+    .header-chat h1{
+        margin-top: 42px;
+        font-size: 1.17em;  
+      }
+}
+@media screen and (min-width:1280px)and (min-height:800px){
+    .barra-mensagem{
+        top:716px;
+    }
+}
+
+
+
+.login{
+    background:rgba(149, 185, 148, 1);
+    height: 883px;
+}
+
+.logo_professor{
+    position: absolute;
+    width: 438px;
+    height: 520px;
+    left: 280px;
+    top: 230px;
+    border-radius: 39px;
+}
+
+
+.btn_cadastrar{
+    padding-left: 1050px;
+    padding-top: 350px;
+}
+
+.btn1{
+    background: black;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.btn_logar{
+    padding-left: 1050px;
+    padding-top: 170px;
+}
+
+.btn2{
+    background: black;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.t_professor{
+    position: absolute;
+    width: 552px;
+    height: 183px;
+    left: 1040px;
+    top: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 16px;
+    /* or 21% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.linhah{
+    background: white;
+    position: absolute;
+    width: 552px;
+    height: 0px;
+    left: 1000px;
+    top: 281px;
+
+    border: 4px solid #FFFFFF;
+}
+
+
+.linhav{
+    position: absolute;
+    width: 565px;
+    height: 0px;
+    left: 534px;
+    top: 500px;
+    background: white;
+    border: 4px solid #FFFFFF;
+    transform: rotate(-90deg);
+}

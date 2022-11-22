@@ -1,136 +1,47 @@
 body {
+    font-family:'inter' ;
+    font-size: 16px;
     margin: 0%;
     width: 100%;
     height: 100%;
-    background-color:#ffffff;
-    /*background-color: #D2FAC3;*/
+    background-color:#8fad84;
 }
-header {
-    width: 100vw;
-    height: 5vh;
-    background-color: #4B784F;
+.white{
+    color:white;
 }
-nav{    
-
-    background-color: #4B784F;
-    width: 100%;
+#telaCadastro{
     display: flex;
-    position: fixed;
-    z-index: 99;
-    color: white;
-
-}
-.logo-nav
-{
-    width: 4vw;
-    left: 15px;
-}
-.txt-nav{
-    width: 30vw;
-    position: relative;
-    left: 1vw;
-    top: 0.2vw;
-    font-size: 1.5vw;
-}
-.home-nav
-{
-    position: relative;
-    top: 1vw;
-    left: 15vw;
-    font-size: 1vw;
-    text-decoration-line: underline;
-
-}
-.sobre-nav{
-    position: relative;
-    top: 1vw;
-    left: 18vw;
-    font-size: 1vw;
-    text-decoration-line: underline;
-
-}
-.projetos-nav
-{
-    position: relative;
-    top: 1vw;
-    left: 21vw;
-    font-size: 1vw;
-    text-decoration-line: underline;
-
-}
-.onde-nav{
-    position: relative;
-    top: 1vw;
-    left: 24vw;
-    font-size: 1vw;
-    text-decoration-line: underline;
-
-}
-.fale-nav
-{
-    position: relative;
-    top: 1vw;
-    left: 27vw;
-    font-size: 1vw;
-    text-decoration-line: underline;
-}
-.cadastro-nav{
-    position: relative;
-    top: 1vw;
-    left: 30vw;
-    font-size: 1vw;
-    text-decoration-line: underline;
-}
-#chat-online h1{
-    display: flex;
-    justify-content: space-around;
-}
-.chat-inicio{
-    justify-content: center;
-    display: flex;
-    
-}
-.fundo-chat{
-    display: flex;
-    height: 80.5vh;
-    width: 100%;
-    background-color: #ffffff;
-}
-.barra-mensagem{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 508px;
+    padding-left: 160px;
     align-items: center;
-    padding: 12px 0px;
-    gap: 0px;
-    position: absolute;
-    width: 100vw;
-    height: 64px;
-    left: 0px;
-    top: 512px;
 }
-.input-chat{
-    width: 89vw;
-    height: 7vh;
-    margin: 19px;
-    border-radius: 6px; 
-    border-color: rgb(103, 115, 128);
-    border-style: solid;
+#telaCadastro h3{
+    text-align: center;
+    margin-top: 66px;
 }
-.enviar-chat{
-    background: #000000;
-    border-radius: 6px;
-    color: #ffffff;
-    padding: 14px;
+.input-Cadastro {
+    width: 500px;
+    position: relative;
 }
-@media screen and (min-width: 601px){
-    
-    .header-chat h1{
-        margin-top: 42px;
-        font-size: 1.17em;  
-      }
+.input-Cadastro #inputCadastro { 
+    border: none;
+    margin-top: 58px;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    width: 500px;
 }
-@media screen and (min-width:1280px)and (min-height:800px){
-    .barra-mensagem{
-        top:716px;
-    }
+.checkbox-cadastro{
+    align-items: center;
+    margin-top: 32px;
+}
+.btn-cadastrar{
+    display: flex;
+    margin-left: -0.5%;
+    background-color: #8fad84;
+    color:white;
+    border: 2px solid black;
+    border-radius: 45px;
+    margin-top: 32px;
+    font-size: 27px;
 }
